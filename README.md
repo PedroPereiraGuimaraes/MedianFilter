@@ -14,7 +14,7 @@ A ideia principal do filtro de medianas é percorrer o sinal entrada por entrada
 O filtro mediano geralmente é usado para reduzir o ruído em uma imagem. Estaremos lidando com o ruído de sal e pimenta no exemplo abaixo. O método Median_Filter recebe 2 argumentos, matriz de imagem e tamanho do filtro. Digamos que você tenha seu array Image na variável chamada img_arr e queira remover o ruído dessa imagem usando o filtro mediano 3x3. É assim que se faz.
 
 ```
-removed_noise = median_filter(arr, 3)
+removed_noise = FiltroDeMediana(arr, 3)
 ```
 
 Para o filtro mediano 5x5, você só precisa alterar o segundo argumento para 5 e assim por diante.
